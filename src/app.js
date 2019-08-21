@@ -1,7 +1,7 @@
 "use strict";
 (async function(KinSdk, KeystoreProvider) {
-	let keyStoreProvider = new KeystoreProvider(KinSdk);
-
+	const SECRET_KEY = 'my secret key';
+	let keyStoreProvider = new KeystoreProvider(KinSdk, SECRET_KEY);
 	let kinClient = new KinSdk.KinClient(
 		KinSdk.Environment.Testnet,
 		keyStoreProvider
