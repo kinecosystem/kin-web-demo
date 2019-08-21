@@ -1,0 +1,22 @@
+{
+  "name": "kin-web-demo",
+  "version": "1.0.0",
+  "description": "kin-web-demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinecosystem/kin-web-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinecosystem/kin-web-demo/issues"
+  },
+  "homepage": "https://github.com/kinecosystem/kin-web-demo#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
